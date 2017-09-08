@@ -1,0 +1,45 @@
+<HTML>
+<head>
+<script src="jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<style>
+.tutaj {display:block; padding:10px; background-color:#f0f0f0; cursor:pointer}
+</style>
+<!--<div class="tutaj" onClick="dzialaj()">zaladuj</div>-->
+<div class="tutaj" id="button">zaladuj</div>
+<div class="dane"></div>
+
+<script>
+
+
+button = document.getElementById('button');
+var clicked='no';
+
+button.onclick = function ()
+{
+    var url = 'http://www.multipasko.pl/wyniki-lotto/multi-lotek/';
+if (XMLHttpRequest) {
+    var request = new XMLHttpRequest();
+    if ('withCredentials' in request) {
+        request.open('GET', url, true);
+        //request.onreadystatechange = handler;
+        request.send();
+    } else if (XDomainRequest) {
+        var xdr = new XDomainRequest();
+            xdr.open('get', url);
+            xdr.send();
+    } else {
+        alert("cors not supported")
+    }
+}
+xmlDoc = request.responseText;
+$(".dane").html(xmlDoc);
+};
+     
+
+</script>
+</body>
+
+
+</HTML>

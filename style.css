@@ -1,0 +1,77 @@
+body {
+	font-family: Arial;
+	font-size:10px;
+}
+.hilighted1 {
+	background: #999;
+	color:#333;
+}	
+.hilighted2 {
+	background: #ff0;
+	color:#000;
+}
+.hilighted3 {
+	background: #999999;
+	color:#000;
+}
+.hilighted4 {
+	background: #78EBEB;
+	color:#000;
+}
+td {
+	border:0.5px solid #888;
+	min-width: 15px;
+	text-align: center;
+	color:000;
+}
+thead {
+	background: #fff;
+}
+.table80 {
+	background:#360;
+	font-size: 10px;
+}
+.button1 {
+	display:block;
+	padding:20px;
+	border:1px solid #999;
+	background: #f0f0f0;
+	color:#000;
+	font-size:14px;
+	cursor: pointer;
+	text-align: center;
+	width:100px;
+	height: 60px;
+	float:left;
+	margin:10px;
+}
+.button2 {
+	display:block;
+	padding:5px;
+	border:1px solid #999;
+	background: #ff6600;
+	color:#fff;
+	font-size:14px;
+	cursor: pointer;
+	text-align: center;
+	width:20px;
+	height: 20px;
+	float:left;
+	margin:3px;
+}
+.sumyzbiorow {
+	background: #b0b0b0;
+	color:#ffffff;
+	font-size:20px;
+	font-weight: 700;
+}
+.intensity1 {background: rgb(112,0,0)}
+.intensity2 {background: rgb(124,0,0)}
+.intensity3 {background: rgb(136,0,0)}
+.intensity4 {background: rgb(148,0,0)}
+.intensity5 {background: rgb(160,0,0)}
+.intensity6 {background: rgb(172,0,0)}
+.intensity7 {background: rgb(184,0,0)}
+.intensity8 {background: rgb(196,0,0)}
+.intensity9 {background: rgb(208,0,0)}
+.intensity10 {background: rgb(220,0,0)}
